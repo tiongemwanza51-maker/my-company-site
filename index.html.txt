@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wakanda Solar | Clean, Reliable Energy Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: #2d3748;
+            line-height: 1.6;
+            background-color: #f7fafc;
+        }
+
+        /* Header */
+        header {
+            background-color: #1a202c;
+            padding: 1.2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #d69e2e;
+        }
+
+        .logo {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: #d69e2e;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(26, 32, 44, 0.85), rgba(26, 32, 44, 0.85)), 
+                        url('https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: #ffffff;
+            padding: 6rem 5%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 650px;
+            margin: 0 auto 2rem;
+            color: #e2e8f0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #d69e2e;
+            color: #1a202c;
+            padding: 0.9rem 2.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #b7791f;
+            color: #ffffff;
+        }
+
+        /* Intro Section */
+        .intro {
+            padding: 4rem 5%;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            color: #1a202c;
+            margin-bottom: 1rem;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            color: #4a5568;
+        }
+
+        /* Products Overview */
+        .features {
+            background-color: #ffffff;
+            padding: 3rem 5%;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            border-top: 1px solid #e2e8f0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .feature-card {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            padding: 1.8rem;
+            border-radius: 8px;
+            width: 260px;
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            color: #1a202c;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 4rem 5%;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 2rem;
+            color: #1a202c;
+            margin-bottom: 2rem;
+        }
+
+        .contact-cards {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #cbd5e0;
+            padding: 2rem;
+            border-radius: 8px;
+            width: 280px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            margin-bottom: 0.8rem;
+            color: #1a202c;
+        }
+
+        .card a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            margin-top: 0.5rem;
+            background-color: #25d366;
+            color: #ffffff !important;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.95rem !important;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a202c;
+            color: #a0aec0;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Wakanda <span>Solar</span></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Power Your Future with Wakanda Solar</h1>
+        <p>Reliable, clean, and affordable solar energy solutions for homes and businesses.</p>
+        <a href="#contact" class="btn">Get a Quote</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="intro">
+        <h2>Welcome to Wakanda Solar</h2>
+        <p>We supply high-quality solar systems, panels, inverters, and battery setups designed to keep your power running non-stop. Whether you need a full residential installation or high-performance commercial equipment, our sales team is here to assist you.</p>
+    </section>
+
+    <!-- Offerings -->
+    <section class="features">
+        <div class="feature-card">
+            <h3>Solar Panels</h3>
+            <p>High-efficiency panels built for maximum output.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Inverters & Batteries</h3>
+            <p>Reliable power storage and backup systems.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Custom Installs</h3>
+            <p>Tailored solar setups for home and industrial use.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2>Speak with Our Sales Team</h2>
+        <div class="contact-cards">
+            <div class="card">
+                <h3>Sales & Inquiries</h3>
+                <p><a href="tel:+260000000000">+260 00 000 0000</a></p>
+                <a href="https://wa.me/260000000000" class="whatsapp-btn" target="_blank">Chat on WhatsApp</a>
+            </div>
+            <div class="card">
+                <h3>Customer Support</h3>
+                <p><a href="tel:+260000000000">+260 00 000 0000</a></p>
+            </div>
+            <div class="card">
+                <h3>Email Us</h3>
+                <p><a href="mailto:sales@wakandasolar.com">sales@wakandasolar.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Wakanda Solar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
